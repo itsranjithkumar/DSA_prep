@@ -9,7 +9,7 @@ def romanToInt(s: str) -> int:
         'M': 1000   
     }
 
-    total = 0
+    # total = 0
     prev_value = 0  
     for char in s:
         value = roman_values[char]
