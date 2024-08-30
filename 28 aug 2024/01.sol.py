@@ -19,7 +19,7 @@ print(nums[k+1:]+nums[:k+1])
 
 nums = [-1,-100,3,99]
 k = 2
-print(nums[k:]+nums[:k])
+print(nums[k:]+nums[:k]) 
 
 
 
