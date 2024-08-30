@@ -24,3 +24,6 @@ def romanToInt(s: str) -> int:
 print(romanToInt("III"))    # Output: 3
 print(romanToInt("LVIII"))  # Output: 58
 print(romanToInt("MCMXCIV"))# Output: 1994
+
+
+
