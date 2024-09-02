@@ -196,19 +196,19 @@ print(f'the factorial {number} is {result}')'''
 
 # find missing array ?
 
-def find_missing(input_list):
+# def find_missing(input_list):
 
-  sum_of_elements = sum(input_list)
+#   sum_of_elements = sum(input_list)
  
-  # There is exactly 1 number missing
-  n = len(input_list) + 1
-  actual_sum = (n * ( n + 1 ) ) / 2
+#    There is exactly 1 number missing
+#   n = len(input_list) + 1
+#   actual_sum = (n * ( n + 1 ) ) / 2
  
-  return int(actual_sum - sum_of_elements)
-list_1 = [1,5,6,3,4]
+#   return int(actual_sum - sum_of_elements)
+# list_1 = [1,5,6,3,4]
 
 
-find_missing(list_1)
+# find_missing(list_1)
 # 2
 
 
@@ -265,7 +265,140 @@ find_missing(list_1)
 # my_dict = dict(key_value_pairs)
 
 
-
 # print(f"Dictionary: {my_dict}")
 
+
+"----------------------------------------------------------------------------------------------------------------"
+
+#  How can you handle exceptions in Python?
+
+# try:
+#     e = 10 
+# except Exception as e:
+#     print("Error:", e)
+# else:
+#     print("No errors occurred")
+# finally:
+#     print("This runs no matter what")
+
+'-------------------------------------------------------------------------------------------------------------------'
+# What is a lambda function in Python? Provide an example.
+
+# add = lambda x,y: x+y 
+
+# print(add(5,5))
+
+'---------------------------------------------------------------------------------------------------------------------'
+# Explain list comprehension and give an example.
+
+# L = [x*3 for x in range (10)]
+
+# print(L)
+
+
+'-------------------------------------------------------------------------------------------------------------------'
+# How do you merge two dictionaries in Python?
+
+# dic1 = {'a':1, 'b':2, 'c':3}
+# dic2 = {'d':4, 'e':5, 'f':6}
+
+# dic1.update (dic2)
+
+# print(dic1)
+
+'--------------------------------------------------------------------------------------------'
+# How can you create a dictionary from two lists in Python?
+
+# keys = ['a', 'b', 'c']
+# values = [1, 2, 3]
+# my_dict = dict(zip(keys, values))
+# print(my_dict)  # Output: {'a': 1, 'b': 2, 'c': 3}
+
+'--------------------------------------------------------------------------------------------'
+
+# Explain the difference between continue, break, and pass in Python loops.
+
+# for i in range (10):
+#     if i == 3:
+#         continue
+#     if i == 8:
+#         break 
+#     print (i)
+
+'-----------------------------------------------------------------------------------------------'
+
+# What are lists and tuples? What is the key difference between the two?
+
+# my_tuple = ('sara', 6, 5, 0.97)
+# my_list = ['sara', 6, 5, 0.97]
+
+
+# my_list [0]='Ranjith'
+
+# print(my_list[0])
+
+
+# my_tuple [0]='Ranjith'
+
+# print(my_tuple[0])
+
+# In list we can change the strint or number
+
+# but in tuple we can't change the strint or number
+
+
+'-----------------------------------------------------------------------------------------------'
+# What is __init__? 
+
+# class developers:
+#     def __init__(self,name,age,salary):
+#         self.name = name
+#         self.age = age
+#         self.salary = salary
+
+# E1 = developers('Ranjith', 21, 25000)
+
+# print(E1.name)
+# print(E1.age)
+# print(E1.salary)
+
+
+# Reverse the order of a list
+
+# x = ['Ranjith', 'Kumar', 'gokul', 'Rajesh']
+
+# R = x[::-1]
+
+# print(R)
+
+
+
+# What are docstrings in Python?
+
+# x = 10
+# y = 2
+# z = x/y
+
+# print(z)
+
+
+
+# Why do we use join() function in Python?
+
+# x = 'rohan'
+
+# y = 'ab'
+
+# y = x.join(y)
+
+# print(y)
+
+
+# Explain the concept of conditional statements in Python.
+
+# age = 20
+# if age >= 18:
+#     print('you are an adult')
+# else:
+#     print('you are not an adult')
 
