@@ -136,18 +136,17 @@ print(f'the factorial {number} is {result}')'''
 
 '''---------------------------------------------------------------------------------------------------------------------'''
 
-# def find_common_elements(list1,list2):
-#     common_elements=[]
-#     for e in list1:
-#      if e in list2:
-#         common_elements.append(e)
-#     return common_elements
+# list1 = [1,2,3,4,5]
+# list2 = [6,2,8,9,1]
 
-# list_a = [1, 2, 3, 4, 5]
-# list_b = [5, 3, 7, 2, 9]
 
-# common_elements = find_common_elements(list_a,list_b)
-# print(common_elements)
+# common_element = []
+
+# for i in list1:
+#     if i in list2:
+#         common_element.append(i)
+
+# print(common_element)
 
 '''-------------------------------------------------------------------------------------------------------------------'''
 
@@ -401,4 +400,121 @@ print(f'the factorial {number} is {result}')'''
 #     print('you are an adult')
 # else:
 #     print('you are not an adult')
+
+'-------------------------------------------------------------------------------------------------'
+# Converting an Integer into Decimals
+
+# import decimal
+# integer = 10
+
+# print(decimal.Decimal(integer))
+# print(type(decimal.Decimal(integer)))
+
+# output :
+# 10
+# <class 'decimal.Decimal'>
+
+'------------------------------------------------------------------------------------------------'
+# Counting Vowels in a Given Word
+
+vowel = ['a', 'e', 'i', 'o', 'u']
+
+word = 'programming'
+count = 0
+
+for i in word:
+    if i  in vowel:
+        count += 1
+print(count)
+
+'-----------------------------------------------------------------------------------------------'
+
+string = 'Ranjithh'
+
+word = 'h'
+count = 0
+
+for i in string:
+    if i in word:
+        count += 1  
+
+print(count)
+
+
+'-----------------------------------------------------------------------------------------------'
+# Finding the Maximum Number in a List
+
+number = [10,20,30,40]
+
+max_number = number[0]
+
+for num in number:
+
+    if max_number < num:
+        max_number = num
+print (max_number)
+
+'--------------------------------------------------------------------------------'
+# Finding the Middle Element in a List
+
+
+number = [1,2,3,4,5,6,7,8,9,10]
+
+middle_element = int(len(number) / 2)
+
+
+print(number[middle_element])
+
+
+
+'---------------------------------------------------------------------------------'
+
+# Converting a List into a String
+
+list = 'r', 'a', 'n', 'j', 'i', 't', 'h'
+
+string = ''.join(list)
+
+print(string)
+print(type(string))
+
+# output:
+# ranjit
+# <class 'str'>
+
+'-----------------------------------------------------------------------------------------'
+
+
+
+   
+
+
+
+
+
+
+
+
+
+list1 = [1,2,3,4,5]
+list2 = [6,2,8,9,1]
+
+
+common_element = []
+
+for i in list1:
+    if i in list2:
+        common_element.append(i)
+
+print(common_element)
+
+
+
+
+
+
+
+
+
+
 
