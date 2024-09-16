@@ -579,5 +579,28 @@ print(f'the factorial {number} is {result}')'''
 # output : False
 
 '----------------------------------------------------------------------'
+# Test
 
 
+# for i in x:
+#     if i%2!=0:
+#      print(i)
+
+# for i in range(21,30,2):
+#         print(i)
+
+
+# for i in range(20,32,2):
+#         print(i)
+
+
+# def palindrom(string):
+        
+#         return string == string[::-1]
+# S = 'amma'
+
+# print(palindrom(S))
+
+
+# s = 'Ranjith' 
+# print(s.count('i'))
