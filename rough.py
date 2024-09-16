@@ -417,53 +417,53 @@ print(f'the factorial {number} is {result}')'''
 '------------------------------------------------------------------------------------------------'
 # Counting Vowels in a Given Word
 
-vowel = ['a', 'e', 'i', 'o', 'u']
+# vowel = ['a', 'e', 'i', 'o', 'u']
 
-word = 'programming'
-count = 0
+# word = 'programming'
+# count = 0
 
-for i in word:
-    if i  in vowel:
-        count += 1
-print(count)
+# for i in word:
+#     if i  in vowel:
+#         count += 1
+# print(count)
 
 '-----------------------------------------------------------------------------------------------'
 
-string = 'Ranjithh'
+# string = 'Ranjithh'
 
-word = 'h'
-count = 0
+# word = 'h'
+# count = 0
 
-for i in string:
-    if i in word:
-        count += 1  
+# for i in string:
+#     if i in word:
+#         count += 1  
 
-print(count)
+# print(count)
 
 
 '-----------------------------------------------------------------------------------------------'
 # Finding the Maximum Number in a List
 
-number = [10,20,30,40]
+# number = [10,20,30,40]
 
-max_number = number[0]
+# max_number = number[0]
 
-for num in number:
+# for num in number:
 
-    if max_number < num:
-        max_number = num
-print (max_number)
+#     if max_number < num:
+#         max_number = num
+# print (max_number)
 
 '--------------------------------------------------------------------------------'
 # Finding the Middle Element in a List
 
 
-number = [1,2,3,4,5,6,7,8,9,10]
+# number = [1,2,3,4,5,6,7,8,9,10]
 
-middle_element = int(len(number) / 2)
+# middle_element = int(len(number) / 2)
 
 
-print(number[middle_element])
+# print(number[middle_element])
 
 
 
@@ -471,12 +471,12 @@ print(number[middle_element])
 
 # Converting a List into a String
 
-list = 'r', 'a', 'n', 'j', 'i', 't', 'h'
+# list = 'r', 'a', 'n', 'j', 'i', 't', 'h'
 
-string = ''.join(list)
+# string = ''.join(list)
 
-print(string)
-print(type(string))
+# print(string)
+# print(type(string))
 
 # output:
 # ranjit
@@ -484,37 +484,100 @@ print(type(string))
 
 '-----------------------------------------------------------------------------------------'
 
+# list1 = [1,2,3,4,5]
+# list2 = [6,2,8,9,1]
 
 
-   
+# common_element = []
 
+# for i in list1:
+#     if i in list2:
+#         common_element.append(i)
 
-
-
-
-
-
-
-
-list1 = [1,2,3,4,5]
-list2 = [6,2,8,9,1]
-
-
-common_element = []
-
-for i in list1:
-    if i in list2:
-        common_element.append(i)
-
-print(common_element)
+# print(common_element)
 
 
 
 
 
+# for i in range(1,11):
+#     if 1 % 2 == 0:
+#         continue
+#     if i == 7:
+#         break
+
+# print(i)
+
+# --------------------------------------------------------------------------------------------
+
+# - workout
+
+# Finding the Maximum Number in a List
+
+# number = [10,20,30,40]
+
+# max_number = number[0]
+
+# for num in number:
+#     max_number < num
+#     max_number = num
+
+# print(max_number)
 
 
 
+# reverse string
 
+# x = 'ranjith'
+
+# reverse_string = x[::-1]
+
+# print(reverse_string)
+
+'--------------------------------------------------------------------------------------------------------'
+# Orginal String is  PYnative
+# Printing only even index chars
+# P
+# n
+# t
+# v
+
+
+# x = 'PYnative'
+
+# for i in range (0,len(x),2):
+#     print(x[i])
+
+'--------------------------------------------------------------------------------------------------------'
+# remove_chars("PYnative", 4) so output must be tive. Here, you need to remove the first four characters from a string.
+# remove_chars("PYnative", 2) so output must be native. Here, you need to remove the first two characters from a string
+# code in python
+
+
+
+# x = 'PYnative'
+
+# r = x[4::]
+
+# s = x[2::]
+
+# print (s)
+
+
+'------------------------------------------------------------------------------------------------------------------'
+
+# Write a code to return True if the list’s first and last numbers are the same. If the numbers are different, return False
+
+
+# x = [10, 20, 30, 40, 10]
+# y = [75, 65, 35, 75, 30]
+
+# def same_number(y):
+#     return y[0] == y[-1]
+# print (same_number(y))
+
+# output : False
+
+'----------------------------------------------------------------------'
 
 
