@@ -69,17 +69,10 @@ print(f'the factorial {number} is {result}')'''
 '''-------------------------------------------------------------------------------------------------------------------'''
 # Write a python progream to find the largest element in a list ?
 
-# def find_largest(numbers):
-#     largest = numbers[0]
-#     for num in numbers:
-#         if num > largest:
-#             largest = num
-#     return largest
-
-# # Test the function
-# nums = [10, 5, 8, 20, 3]
-# largest_num = find_largest(nums)
-# print(f"The largest number is {largest_num}")
+# def largest (number):
+#     return max(number)
+# print(largest([10,20,30,40,10,5,1]))
+# 
 
 '''----------------------------------------------------------------------------'''
 
@@ -604,3 +597,29 @@ print(f'the factorial {number} is {result}')'''
 
 # s = 'Ranjith' 
 # print(s.count('i'))
+
+'-----------------------------------------------------------------------------------------------'
+
+# for i in range(2*2):
+#     print(i)
+
+
+
+n = 101
+
+def prime_number(n):
+    for i in range(2,n):
+        if (n%i==0):
+            return False
+    return True
+
+print(prime_number(n))
+
+
+def prime(n):
+    x = ([i for i in range(2,n) if prime_number(i)])
+    return x
+print(prime(n))
+
+
+
