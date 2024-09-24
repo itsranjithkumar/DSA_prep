@@ -623,3 +623,8 @@ print(prime(n))
 
 
 
+x = "Ranjith"
+
+def remove_string(x):
+    return x[1:-1]
+print(remove_string(x))
